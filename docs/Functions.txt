@@ -1,0 +1,16 @@
+create_map() - Creates map with several tile layers
+
+add_groups() - Adds 3 feature groups to the map
+
+add_countries(con_file) - Adds countries' borders and colors them by population, Adds countries' names markers
+*con_file* - file with countries' data, divided by \t
+
+wel_input() - Welcomes and asks for state, year. Also creates title
+
+search_year(film_file) - Creates dict with films for certain year
+*film_file* - file with film data, divided by \t
+
+add_markers() - Adds film location markers to the map
+
+ending() - Adds layer control, saves and goodbye
+
